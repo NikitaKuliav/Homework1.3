@@ -13,6 +13,7 @@ public class Main {
 
         for (i = 10; i > 0; i--) {
             System.out.print(i + " ");
+
         }
     }
 }
