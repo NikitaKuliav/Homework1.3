@@ -24,8 +24,18 @@ public class Main {
             if (day % 7 == friday) {
                 System.out.println("Сегодня пятница, " + day + " -е число. Необходимо подготовить отчет.");
             }
-
         }
 
+        // Задание 3
+
+        System.out.println();
+        int currentYear = 2022;
+        int comet = 79;
+
+        for (int year = currentYear - 200; year < (currentYear + 100); year ++) {
+            if (year % comet == 0) {
+                System.out.println(year);
+            }
+        }
     }
 }
