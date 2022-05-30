@@ -13,7 +13,19 @@ public class Main {
 
         for (i = 10; i > 0; i--) {
             System.out.print(i + " ");
+        }
+
+        // Задание 2
+
+        int friday = 2;
+
+        System.out.println();
+        for (int day = 1; day <= 31; day++) {
+            if (day % 7 == friday) {
+                System.out.println("Сегодня пятница, " + day + " -е число. Необходимо подготовить отчет.");
+            }
 
         }
+
     }
 }
